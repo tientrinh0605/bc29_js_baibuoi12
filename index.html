@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Bài Tâp JS Buoi 2</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <!-- Nav tabs -->
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link active" data-toggle="tab" href="#bai1">Bài 1</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#bai2">Bài 2</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#bai3">Bài 3</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#bai4">Bài 4</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#bai5">Bài 5</a>
+      </li>
+  </ul>
+  
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div class="tab-pane container active" id="bai1">
+        <div class="card row col-6 text-center mx-auto m-4">
+            <div class="card-header h1 ">Tính Lương Nhân Viên</div>
+            <div class="card-body">
+                <h3 class="text-uppercase">Nhập Số Ngày Làm Việc</h3>
+                <div class="input-group mb-3">
+                    <input id="nhapSoNgayLamViec" type="text" class="form-control" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <span class="input-group-text">Ngày</span>
+                    </div>
+                </div>
+                <button id="luong" class=" btn btn-outline-primary">Tính Số Lương</button>
+                <div class="p-2 font-weight-bold " id="ketQua"></div>
+            </div>
+            <div class="card-footer">Trân Thành Cảm Ơn!</div>
+        </div>
+    </div>
+    <div class="tab-pane container fade" id="bai2">
+        <div class="card row col-6 text-center mx-auto m-4">
+            <div class="card-header h2 ">Tính Giá Trị Trung Bình 5 Số Thực</div>
+            <div class="card-body">
+                <h3 class="text-uppercase">Nhập 5 Số Thực</h3>
+                <div class="input-group mb-3">
+                    <input id="soThu1" type="text" class="form-control" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <span class="input-group-text">Số Thứ 1</span>
+                    </div>
+                </div>
+                <div class="input-group mb-3">
+                    <input id="soThu2" type="text" class="form-control" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <span class="input-group-text">Số Thứ 2</span>
+                    </div>
+                </div>
+                <div class="input-group mb-3">
+                    <input id="soThu3" type="text" class="form-control" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <span class="input-group-text">Số Thứ 3</span>
+                    </div>
+                </div>
+                <div class="input-group mb-3">
+                    <input id="soThu4" type="text" class="form-control" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <span class="input-group-text">Số Thứ 4</span>
+                    </div>
+                </div>
+                <div class="input-group mb-3">
+                    <input id="soThu5" type="text" class="form-control" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <span class="input-group-text">Số Thứ 5</span>
+                    </div>
+                </div>
+                <button id="trungBinh" class=" btn btn-outline-primary">Số Trung Bình</button>
+                <div class="p-2 font-weight-bold " id="ketQuaTrungBinh"></div>
+            </div>
+            <div class="card-footer">Trân Thành Cảm Ơn!</div>
+        </div>
+    </div>
+    <div class="tab-pane container fade" id="bai3">
+        <div class="card row col-6 text-center mx-auto m-4">
+            <div class="card-header h1 ">Quy Đổi Tiền Tệ</div>
+            <div class="card-body">
+                <h3 class="text-uppercase">Nhập Số Tiền</h3>
+                <div class="input-group mb-3">
+                    <input id="nhapSoTienUsd" type="text" class="form-control" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <span class="input-group-text">USD</span>
+                    </div>
+                </div>
+                <button id="quyDoiTien" class=" btn btn-outline-primary">Quy Đổi Sang VND</button>
+                <div class="p-2 font-weight-bold " id="ketQuaVND"></div>
+            </div>
+            <div class="card-footer">Trân Thành Cảm Ơn!</div>
+        </div>
+    </div>
+    <div class="tab-pane container fade" id="bai4">
+        <div class="card row col-6 text-center mx-auto m-4">
+            <div class="card-header h1 ">Tính Diện Tích Và Chu Vi Hình Chữ Nhật</div>
+            <div class="card-body">
+                <h3 class="text-uppercase">Nhập Thông Số Cần Thiết</h3>
+                <div class="input-group mb-3 ">
+                    <input id="chieuDai" type="text" class="form-control" placeholder="Chiều Dài"
+                        aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <span class="input-group-text">CM</span>
+                    </div>
+                </div>
+                <div class="input-group mb-3 ">
+                    <input id="chieuRong" type="text" class="form-control " placeholder="Chiều Rộng"
+                        aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <span class="input-group-text">CM</span>
+                    </div>
+                </div>
+    
+                <button id="tinhToan" class=" btn btn-outline-primary">Tính Toán</button>
+                <div class="p-2 font-weight-bold " id="chuVi"></div>
+                <div class="p-2 font-weight-bold " id="dienTich"></div>
+            </div>
+            <div class="card-footer">Trân Thành Cảm Ơn!</div>
+        </div> 
+    </div>
+    <div class="tab-pane container fade" id="bai5">
+        <div class="card row col-6 text-center mx-auto m-4">
+            <div class="card-header h1 ">Tính Tổng 2 Ký Số </div>
+            <div class="card-body">
+                <h3 class="text-uppercase">Nhập 1 Số Có 2 Chữ Số</h3>
+                <div class="input-group mb-3">
+                    <input id="soHaiChuSo" type="text" class="form-control" placeholder="Vd: 34" aria-describedby="basic-addon2">
+                </div>
+                <button id="tinhTongKySo" class=" btn btn-outline-primary">Tính Tổng 2 Ký Số</button>
+                <div class="p-2 font-weight-bold " id="ketQuaTongHaiSo"></div>
+            </div>
+            <div class="card-footer">Trân Thành Cảm Ơn!</div>
+        </div>
+    </div>
+  </div>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="/main.js"></script>
+</body>
+
+</html>

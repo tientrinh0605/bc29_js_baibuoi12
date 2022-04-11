@@ -1,0 +1,46 @@
+Bài 1: Tính lương
+   input:  Nhập Số Ngày Làm Việc
+   Xử Lý: 
+        B1: Tạo Biến Ngày Làm Việc
+        B2: Lấy Số Ngày Làm Việc Nhân Với 100.000đ
+    Output: Số Tiền Tương Ứng Theo Số Ngày Làm Việc
+
+
+Bài 2: Tính Giá Trị Trung Bình 5 số Thực. 
+input: Cho 5 số thực bất kỳ
+Xử lý:
+    B1: Khai báo và nhập 5 số thực. 
+    B2: Lập biến mới là tổng trung bình của 5 số thực. 
+Output: Xuất ra giá trị trung bình của 5 số. 
+
+
+Bài 3: Quy Đổi Tiền. 
+input: Nhập giá trị tiền bằng USD 
+Xử lý:
+    B1: Khai báo biến số tiền USD nhập Vào
+    B2: Khai báo hằng số tỷ giá không đổi. 
+    B3: Khai báo biến tiền việt bằng tích tỷ giá và số tiền USD.
+    B4: Chuyển đổi định dạng tiền tệ bằng thập phần 3 số. 
+    B5: Xuất ra màn hình. 
+Output: Xuất ra giá trị tiền việc đã quy đổi. 
+
+
+Bài 4: Tính Diện Tích Và Chu Vi Hình Chữ Nhật. 
+input: Nhập kích thước 2 cạnh của hình chử nhật. 
+Xử lý: 
+    B1: Tạo biến nhập kích thước chiều rộng. 
+    B2: Tạo biến nhập kích thước chiều dài. 
+    B3: Khai báo biến diện tích bằng chiều dài nhân chiều rộng. 
+    B4: Khai báo biến chu vi bằng ( dài+ rộng) nhân 2. 
+    B5: Xuất hai giá trị chu vi và diện tích ra màn hình. 
+Output: Xuất ra màn hình gía trị chu vi và diện tích. 
+
+
+Bài 5: Tính Tổng 2 Ký Số
+input: Nhập vào 1 số có hai chữ số ngẫu nhiên. 
+Xử lý: 
+    B1: Khai báo nhập biến số hai chử số cần tính. 
+    B2: Khai biến hàng chục chia lần nguyên
+    B3: Khai báo biến hàng đơn vị chia 10 lấy phần dư.
+    B4: Tính tống hai số hàng chục và hàng đơn vị 
+Output: Hiển thị tổng 2 ký số. 
